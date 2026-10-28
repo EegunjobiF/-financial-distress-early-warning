@@ -1,0 +1,15 @@
+# Don't push data
+data/raw/
+*.arff
+*.csv
+*.pkl
+*.zip
+
+# Don't push python cache
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# Don't push OS junk
+.DS_Store
+Thumbs.db
