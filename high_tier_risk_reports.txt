@@ -1,0 +1,3009 @@
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6699
+  Company    : Record 6699 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 0.0% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. (Gross profit + extraordinary items + financial expenses) / total assets
+     Company value: not reported | contribution +10.567
+  2. Receivables / short-term liabilities (engineered)
+     Company value 0.109 | training median 0.727 | above 2% of training companies | contribution +2.409
+  3. Operating expenses / total liabilities
+     Company value 4.142 | training median 1.728 | above 74% of training companies | contribution +1.704
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6718
+  Company    : Record 6718 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 0.1% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +13.701
+  2. Operating expenses / total liabilities
+     Company value 0.088 | training median 1.728 | above 15% of training companies | contribution +2.121
+  3. Sales / total assets
+     Company value 1.026 | training median 1.207 | above 22% of training companies | contribution +1.967
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6711
+  Company    : Record 6711 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 0.1% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. (Gross profit + extraordinary items + financial expenses) / total assets
+     Company value: not reported | contribution +11.617
+  2. Operating expenses / total liabilities
+     Company value 3.859 | training median 1.728 | above 72% of training companies | contribution +1.826
+  3. Total costs / total sales
+     Company value 0.800 | training median 0.939 | above 14% of training companies | contribution +1.098
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6700
+  Company    : Record 6700 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 0.2% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. (Gross profit + extraordinary items + financial expenses) / total assets
+     Company value: not reported | contribution +10.294
+  2. Receivables / short-term liabilities (engineered)
+     Company value 0.056 | training median 0.727 | above 1% of training companies | contribution +4.196
+  3. Operating expenses / total liabilities
+     Company value 6.334 | training median 1.728 | above 86% of training companies | contribution +1.817
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6728
+  Company    : Record 6728 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 0.3% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +13.758
+  2. Operating expenses / total liabilities
+     Company value 0.073 | training median 1.728 | above 13% of training companies | contribution +2.168
+  3. Sales / total assets
+     Company value 1.023 | training median 1.207 | above 21% of training companies | contribution +1.918
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6782
+  Company    : Record 6782 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 0.4% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +13.629
+  2. Operating expenses / total liabilities
+     Company value -0.357 | training median 1.728 | above 1% of training companies | contribution +2.241
+  3. Sales / total assets
+     Company value 0.891 | training median 1.207 | above 6% of training companies | contribution +1.830
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6813
+  Company    : Record 6813 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 0.4% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +12.565
+  2. Operating expenses / total liabilities
+     Company value -0.433 | training median 1.728 | above 0% of training companies | contribution +2.301
+  3. Sales / total assets
+     Company value 0.720 | training median 1.207 | above 3% of training companies | contribution +1.295
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6830
+  Company    : Record 6830 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 0.5% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +12.736
+  2. Operating expenses / total liabilities
+     Company value -0.334 | training median 1.728 | above 1% of training companies | contribution +2.393
+  3. Receivables / short-term liabilities (engineered)
+     Company value 0.006 | training median 0.727 | above 0% of training companies | contribution +2.142
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6827
+  Company    : Record 6827 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 0.6% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +13.863
+  2. Operating expenses / total liabilities
+     Company value 0.062 | training median 1.728 | above 12% of training companies | contribution +2.323
+  3. Sales / total assets
+     Company value 1.017 | training median 1.207 | above 19% of training companies | contribution +1.745
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6858
+  Company    : Record 6858 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 0.6% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +12.632
+  2. Operating expenses / total liabilities
+     Company value -0.144 | training median 1.728 | above 2% of training companies | contribution +2.548
+  3. Sales / total assets
+     Company value 0.822 | training median 1.207 | above 5% of training companies | contribution +1.448
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6803
+  Company    : Record 6803 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 0.7% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +13.549
+  2. Operating expenses / total liabilities
+     Company value -0.119 | training median 1.728 | above 2% of training companies | contribution +2.285
+  3. Sales / total assets
+     Company value 0.974 | training median 1.207 | above 10% of training companies | contribution +2.139
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6754
+  Company    : Record 6754 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 0.8% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +14.583
+  2. Sales / total assets
+     Company value 1.086 | training median 1.207 | above 36% of training companies | contribution +2.066
+  3. Operating expenses / total liabilities
+     Company value 0.201 | training median 1.728 | above 23% of training companies | contribution +1.974
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6760
+  Company    : Record 6760 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 0.9% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +13.581
+  2. Operating expenses / total liabilities
+     Company value 0.116 | training median 1.728 | above 17% of training companies | contribution +2.052
+  3. Sales / total assets
+     Company value 1.018 | training median 1.207 | above 20% of training companies | contribution +1.953
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6820
+  Company    : Record 6820 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 0.9% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +13.455
+  2. Operating expenses / total liabilities
+     Company value -0.126 | training median 1.728 | above 2% of training companies | contribution +2.588
+  3. Sales / total assets
+     Company value 0.934 | training median 1.207 | above 8% of training companies | contribution +1.826
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6823
+  Company    : Record 6823 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 1.0% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +14.461
+  2. Operating expenses / total liabilities
+     Company value 0.135 | training median 1.728 | above 19% of training companies | contribution +2.213
+  3. Sales / total assets
+     Company value 1.072 | training median 1.207 | above 34% of training companies | contribution +1.980
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6881
+  Company    : Record 6881 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 1.1% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. (Gross profit + extraordinary items + financial expenses) / total assets
+     Company value: not reported | contribution +12.932
+  2. Operating expenses / total liabilities
+     Company value 2.081 | training median 1.728 | above 54% of training companies | contribution +1.623
+  3. Total costs / total sales
+     Company value 0.604 | training median 0.939 | above 4% of training companies | contribution +0.944
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6915
+  Company    : Record 6915 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 1.2% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +14.236
+  2. Operating expenses / total liabilities
+     Company value -0.049 | training median 1.728 | above 4% of training companies | contribution +2.470
+  3. Sales / total assets
+     Company value 0.996 | training median 1.207 | above 13% of training companies | contribution +2.162
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6753
+  Company    : Record 6753 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 1.2% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +13.380
+  2. Operating expenses / total liabilities
+     Company value -0.008 | training median 1.728 | above 5% of training companies | contribution +2.456
+  3. Sales / total assets
+     Company value 0.967 | training median 1.207 | above 10% of training companies | contribution +1.800
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6919
+  Company    : Record 6919 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 1.3% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +12.949
+  2. Operating expenses / total liabilities
+     Company value -0.186 | training median 1.728 | above 2% of training companies | contribution +2.512
+  3. Sales / total assets
+     Company value 0.818 | training median 1.207 | above 5% of training companies | contribution +1.641
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6751
+  Company    : Record 6751 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 1.4% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. (Gross profit + extraordinary items + financial expenses) / total assets
+     Company value: not reported | contribution +12.120
+  2. Operating expenses / total liabilities
+     Company value 3.556 | training median 1.728 | above 69% of training companies | contribution +1.250
+  3. Total costs / total sales
+     Company value 0.723 | training median 0.939 | above 8% of training companies | contribution +1.074
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6923
+  Company    : Record 6923 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 1.4% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Receivables / short-term liabilities (engineered)
+     Company value 0.000 | training median 0.727 | above 0% of training companies | contribution +7.042
+  2. Operating profit / financial expenses
+     Company value: not reported | contribution +4.426
+  3. (Current assets - inventory) / short-term liabilities
+     Company value 176.450 | training median 0.962 | above 100% of training companies | contribution +1.565
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6884
+  Company    : Record 6884 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 1.5% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +13.271
+  2. Operating expenses / total liabilities
+     Company value 0.030 | training median 1.728 | above 9% of training companies | contribution +2.223
+  3. Sales / total assets
+     Company value 0.974 | training median 1.207 | above 10% of training companies | contribution +1.952
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6802
+  Company    : Record 6802 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 100.0%
+  Rank among test companies        : top 1.6% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +12.944
+  2. Operating expenses / total liabilities
+     Company value -0.240 | training median 1.728 | above 1% of training companies | contribution +2.314
+  3. Sales / total assets
+     Company value 0.997 | training median 1.207 | above 13% of training companies | contribution +1.865
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6708
+  Company    : Record 6708 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 99.9%
+  Rank among test companies        : top 1.7% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. (Gross profit + extraordinary items + financial expenses) / total assets
+     Company value: not reported | contribution +12.198
+  2. Operating expenses / total liabilities
+     Company value 2.790 | training median 1.728 | above 62% of training companies | contribution +1.623
+  3. Receivables / short-term liabilities (engineered)
+     Company value 0.108 | training median 0.727 | above 2% of training companies | contribution +1.258
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6906
+  Company    : Record 6906 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 99.9%
+  Rank among test companies        : top 1.7% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +12.715
+  2. Operating expenses / total liabilities
+     Company value 0.505 | training median 1.728 | above 34% of training companies | contribution +2.217
+  3. Sales / total assets
+     Company value 1.150 | training median 1.207 | above 45% of training companies | contribution +2.080
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6769
+  Company    : Record 6769 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 99.9%
+  Rank among test companies        : top 1.8% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Receivables / short-term liabilities (engineered)
+     Company value 0.000 | training median 0.727 | above 0% of training companies | contribution +6.531
+  2. Operating profit / financial expenses
+     Company value: not reported | contribution +5.828
+  3. Sales / total assets
+     Company value 1.088 | training median 1.207 | above 37% of training companies | contribution +1.399
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6929
+  Company    : Record 6929 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 99.9%
+  Rank among test companies        : top 1.9% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. (Gross profit + extraordinary items + financial expenses) / total assets
+     Company value: not reported | contribution +11.668
+  2. Total costs / total sales
+     Company value 0.859 | training median 0.939 | above 23% of training companies | contribution +1.109
+  3. (Current assets - inventory) / short-term liabilities
+     Company value 0.364 | training median 0.962 | above 9% of training companies | contribution +1.046
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6795
+  Company    : Record 6795 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 99.8%
+  Rank among test companies        : top 1.9% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. (Gross profit + extraordinary items + financial expenses) / total assets
+     Company value: not reported | contribution +12.741
+  2. Operating expenses / total liabilities
+     Company value 10.840 | training median 1.728 | above 94% of training companies | contribution +1.499
+  3. Total costs / total sales
+     Company value 0.810 | training median 0.939 | above 15% of training companies | contribution +1.395
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6808
+  Company    : Record 6808 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 99.6%
+  Rank among test companies        : top 2.0% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Receivables / short-term liabilities (engineered)
+     Company value 0.000 | training median 0.727 | above 0% of training companies | contribution +5.571
+  2. Operating expenses / total liabilities
+     Company value 24.351 | training median 1.728 | above 98% of training companies | contribution +2.178
+  3. Logarithm of total assets
+     Company value 2.117 | training median 4.127 | above 0% of training companies | contribution +1.879
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6770
+  Company    : Record 6770 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 98.7%
+  Rank among test companies        : top 2.1% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +12.328
+  2. Operating expenses / total liabilities
+     Company value -0.221 | training median 1.728 | above 1% of training companies | contribution +2.293
+  3. Sales / total assets
+     Company value 0.452 | training median 1.207 | above 1% of training companies | contribution +0.620
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6752
+  Company    : Record 6752 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 98.6%
+  Rank among test companies        : top 2.2% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +12.539
+  2. Sales / total assets
+     Company value 1.250 | training median 1.207 | above 52% of training companies | contribution +1.951
+  3. Operating expenses / total liabilities
+     Company value 0.841 | training median 1.728 | above 39% of training companies | contribution +1.561
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6871
+  Company    : Record 6871 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 98.6%
+  Rank among test companies        : top 2.2% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Receivables / short-term liabilities (engineered)
+     Company value 0.047 | training median 0.727 | above 1% of training companies | contribution +5.927
+  2. Operating expenses / total liabilities
+     Company value 5.918 | training median 1.728 | above 85% of training companies | contribution +1.483
+  3. (Current assets - inventory) / short-term liabilities
+     Company value 0.069 | training median 0.962 | above 0% of training companies | contribution +1.272
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6928
+  Company    : Record 6928 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 98.4%
+  Rank among test companies        : top 2.3% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Receivables / short-term liabilities (engineered)
+     Company value 0.013 | training median 0.727 | above 0% of training companies | contribution +5.800
+  2. Logarithm of total assets
+     Company value 1.964 | training median 4.127 | above 0% of training companies | contribution +1.892
+  3. Operating expenses / total liabilities
+     Company value 2.962 | training median 1.728 | above 63% of training companies | contribution +1.291
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-5530
+  Company    : Record 5530 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 97.6%
+  Rank among test companies        : top 2.4% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +10.998
+  2. Operating expenses / total liabilities
+     Company value 0.007 | training median 1.728 | above 7% of training companies | contribution +2.615
+  3. Receivables / short-term liabilities (engineered)
+     Company value 0.233 | training median 0.727 | above 7% of training companies | contribution +0.724
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6880
+  Company    : Record 6880 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 96.2%
+  Rank among test companies        : top 2.4% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Receivables / short-term liabilities (engineered)
+     Company value 0.110 | training median 0.727 | above 2% of training companies | contribution +3.894
+  2. (Current assets - inventory) / short-term liabilities
+     Company value 0.251 | training median 0.962 | above 4% of training companies | contribution +1.495
+  3. Inventory / short-term liabilities (engineered)
+     Company value 1.469 | training median 0.487 | above 90% of training companies | contribution +1.254
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6798
+  Company    : Record 6798 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 95.5%
+  Rank among test companies        : top 2.5% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Receivables / short-term liabilities (engineered)
+     Company value 0.105 | training median 0.727 | above 2% of training companies | contribution +2.431
+  2. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.664
+  3. Operating profit / financial expenses
+     Company value -2.183 | training median 1.276 | above 3% of training companies | contribution +1.527
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6742
+  Company    : Record 6742 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 94.4%
+  Rank among test companies        : top 2.6% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +11.238
+  2. Sales / total assets
+     Company value 1.066 | training median 1.207 | above 33% of training companies | contribution +2.116
+  3. Inventory / short-term liabilities (engineered)
+     Company value 1.120 | training median 0.487 | above 84% of training companies | contribution +0.620
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6717
+  Company    : Record 6717 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 83.4%
+  Rank among test companies        : top 2.7% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.588
+  2. Operating expenses / total liabilities
+     Company value 2.207 | training median 1.728 | above 56% of training companies | contribution +1.536
+  3. Cash, securities and receivables less short-term liabilities, in days of operating expenses
+     Company value -36.559 | training median -5.755 | above 29% of training companies | contribution +1.047
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6731
+  Company    : Record 6731 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 79.5%
+  Rank among test companies        : top 2.7% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Logarithm of total assets
+     Company value 2.772 | training median 4.127 | above 1% of training companies | contribution +2.094
+  2. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.583
+  3. Operating expenses / total liabilities
+     Company value 3.468 | training median 1.728 | above 68% of training companies | contribution +1.410
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6740
+  Company    : Record 6740 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 71.5%
+  Rank among test companies        : top 2.8% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +10.065
+  2. Operating expenses / total liabilities
+     Company value 0.667 | training median 1.728 | above 37% of training companies | contribution +2.305
+  3. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +0.497
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-1597
+  Company    : Record 1597 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 66.2%
+  Rank among test companies        : top 2.9% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +9.642
+  2. Operating expenses / total liabilities
+     Company value 0.799 | training median 1.728 | above 38% of training companies | contribution +2.002
+  3. Sales / total assets
+     Company value 0.890 | training median 1.207 | above 6% of training companies | contribution +1.691
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-3222
+  Company    : Record 3222 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 64.3%
+  Rank among test companies        : top 3.0% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating expenses / total liabilities
+     Company value 2.518 | training median 1.728 | above 59% of training companies | contribution +1.497
+  2. (Current assets - inventory) / long-term liabilities
+     Company value 5.497 | training median 3.390 | above 38% of training companies | contribution +0.887
+  3. Cash, securities and receivables less short-term liabilities, in days of operating expenses
+     Company value -15.164 | training median -5.755 | above 43% of training companies | contribution +0.703
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6926
+  Company    : Record 6926 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 58.6%
+  Rank among test companies        : top 3.0% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.595
+  2. Operating expenses / total liabilities
+     Company value 1.461 | training median 1.728 | above 47% of training companies | contribution +1.534
+  3. Operating profit / financial expenses
+     Company value -4.474 | training median 1.276 | above 2% of training companies | contribution +1.093
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6734
+  Company    : Record 6734 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 46.9%
+  Rank among test companies        : top 3.1% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +11.432
+  2. Sales / total assets
+     Company value 0.974 | training median 1.207 | above 10% of training companies | contribution +1.988
+  3. (Gross profit + extraordinary items + financial expenses) / total assets
+     Company value 1.163 | training median 0.103 | above 99% of training companies | contribution +0.606
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-1955
+  Company    : Record 1955 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 46.7%
+  Rank among test companies        : top 3.2% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +8.676
+  2. Operating expenses / total liabilities
+     Company value 0.789 | training median 1.728 | above 38% of training companies | contribution +2.019
+  3. Sales / total assets
+     Company value 0.849 | training median 1.207 | above 5% of training companies | contribution +1.579
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-3847
+  Company    : Record 3847 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 36.2%
+  Rank among test companies        : top 3.2% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.924
+  2. Operating expenses / total liabilities
+     Company value 1.005 | training median 1.728 | above 41% of training companies | contribution +1.641
+  3. Operating profit / financial expenses
+     Company value -3.031 | training median 1.276 | above 3% of training companies | contribution +1.424
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-3644
+  Company    : Record 3644 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 36.0%
+  Rank among test companies        : top 3.3% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Receivables / short-term liabilities (engineered)
+     Company value 0.011 | training median 0.727 | above 0% of training companies | contribution +3.125
+  2. Operating expenses / total liabilities
+     Company value 0.715 | training median 1.728 | above 37% of training companies | contribution +1.821
+  3. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.685
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6287
+  Company    : Record 6287 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 35.2%
+  Rank among test companies        : top 3.4% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value -2.652 | training median 1.276 | above 3% of training companies | contribution +2.065
+  2. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.839
+  3. Operating expenses / total liabilities
+     Company value 2.096 | training median 1.728 | above 54% of training companies | contribution +1.328
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-3448
+  Company    : Record 3448 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 18.4%
+  Rank among test companies        : top 3.5% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating expenses / total liabilities
+     Company value 5.729 | training median 1.728 | above 84% of training companies | contribution +1.757
+  2. Gross profit (in 3 years) / total assets
+     Company value 0.018 | training median 0.164 | above 16% of training companies | contribution +0.796
+  3. Sales growth (sales this year / sales last year)
+     Company value 1.061 | training median 1.135 | above 26% of training companies | contribution +0.789
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-3356
+  Company    : Record 3356 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 17.0%
+  Rank among test companies        : top 3.5% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.570
+  2. Operating expenses / total liabilities
+     Company value 1.561 | training median 1.728 | above 48% of training companies | contribution +1.408
+  3. Total costs / total sales
+     Company value 0.907 | training median 0.939 | above 37% of training companies | contribution +1.091
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-3031
+  Company    : Record 3031 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 16.8%
+  Rank among test companies        : top 3.6% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating expenses / total liabilities
+     Company value 8.610 | training median 1.728 | above 92% of training companies | contribution +1.390
+  2. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.362
+  3. Operating profit / financial expenses
+     Company value 9.160 | training median 1.276 | above 76% of training companies | contribution +1.122
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6865
+  Company    : Record 6865 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 14.7%
+  Rank among test companies        : top 3.7% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Receivables / short-term liabilities (engineered)
+     Company value 0.409 | training median 0.727 | above 20% of training companies | contribution +1.576
+  2. (Current assets - inventory) / short-term liabilities
+     Company value 0.471 | training median 0.962 | above 15% of training companies | contribution +1.328
+  3. Operating profit / financial expenses
+     Company value 25.812 | training median 1.276 | above 85% of training companies | contribution +1.308
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-1122
+  Company    : Record 1122 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 14.2%
+  Rank among test companies        : top 3.7% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +5.556
+  2. Inventory / short-term liabilities (engineered)
+     Company value 4.222 | training median 0.487 | above 98% of training companies | contribution +1.345
+  3. (Current assets - inventory - receivables) / short-term liabilities
+     Company value 6.476 | training median 0.152 | above 98% of training companies | contribution +0.675
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6878
+  Company    : Record 6878 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 13.1%
+  Rank among test companies        : top 3.8% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating expenses / total liabilities
+     Company value 7.934 | training median 1.728 | above 90% of training companies | contribution +1.471
+  2. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.413
+  3. Gross profit (in 3 years) / total assets
+     Company value 0.022 | training median 0.164 | above 17% of training companies | contribution +0.785
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6606
+  Company    : Record 6606 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 12.5%
+  Rank among test companies        : top 3.9% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating expenses / total liabilities
+     Company value 4.357 | training median 1.728 | above 76% of training companies | contribution +1.307
+  2. Cash, securities and receivables less short-term liabilities, in days of operating expenses
+     Company value -32.643 | training median -5.755 | above 32% of training companies | contribution +1.235
+  3. Sales growth (sales this year / sales last year)
+     Company value 1.023 | training median 1.135 | above 19% of training companies | contribution +1.007
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-2081
+  Company    : Record 2081 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 8.2%
+  Rank among test companies        : top 4.0% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating expenses / total liabilities
+     Company value 2.116 | training median 1.728 | above 54% of training companies | contribution +1.415
+  2. Sales growth (sales this year / sales last year)
+     Company value 1.046 | training median 1.135 | above 23% of training companies | contribution +0.836
+  3. Cash, securities and receivables less short-term liabilities, in days of operating expenses
+     Company value -50.177 | training median -5.755 | above 23% of training companies | contribution +0.733
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-5757
+  Company    : Record 5757 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 7.2%
+  Rank among test companies        : top 4.0% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Total costs / total sales
+     Company value 0.835 | training median 0.939 | above 19% of training companies | contribution +2.491
+  2. Operating expenses / total liabilities
+     Company value 1.471 | training median 1.728 | above 47% of training companies | contribution +1.307
+  3. Sales growth (sales this year / sales last year)
+     Company value 0.572 | training median 1.135 | above 1% of training companies | contribution +0.931
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-2160
+  Company    : Record 2160 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 6.5%
+  Rank among test companies        : top 4.1% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value -3.286 | training median 1.276 | above 2% of training companies | contribution +1.983
+  2. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.736
+  3. Operating expenses / total liabilities
+     Company value 3.586 | training median 1.728 | above 69% of training companies | contribution +1.323
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-5795
+  Company    : Record 5795 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 5.9%
+  Rank among test companies        : top 4.2% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating expenses / total liabilities
+     Company value 0.637 | training median 1.728 | above 37% of training companies | contribution +1.964
+  2. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.602
+  3. Profit on sales / sales
+     Company value -0.184 | training median 0.046 | above 1% of training companies | contribution +1.270
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6651
+  Company    : Record 6651 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 5.3%
+  Rank among test companies        : top 4.2% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.448
+  2. Operating expenses / total liabilities
+     Company value 2.733 | training median 1.728 | above 61% of training companies | contribution +1.320
+  3. Gross profit (in 3 years) / total assets
+     Company value 0.050 | training median 0.164 | above 25% of training companies | contribution +0.833
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-5645
+  Company    : Record 5645 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 4.5%
+  Rank among test companies        : top 4.3% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Receivables / short-term liabilities (engineered)
+     Company value 0.146 | training median 0.727 | above 4% of training companies | contribution +1.652
+  2. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.508
+  3. Operating expenses / total liabilities
+     Company value 1.487 | training median 1.728 | above 47% of training companies | contribution +1.193
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-5881
+  Company    : Record 5881 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 4.1%
+  Rank among test companies        : top 4.4% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value -3.752 | training median 1.276 | above 2% of training companies | contribution +2.270
+  2. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.612
+  3. Operating expenses / total liabilities
+     Company value 4.624 | training median 1.728 | above 78% of training companies | contribution +1.398
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-3177
+  Company    : Record 3177 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 3.7%
+  Rank among test companies        : top 4.5% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.613
+  2. Operating expenses / total liabilities
+     Company value 3.486 | training median 1.728 | above 69% of training companies | contribution +1.546
+  3. (Net profit + depreciation) / total liabilities
+     Company value -0.003 | training median 0.272 | above 7% of training companies | contribution +0.747
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-2919
+  Company    : Record 2919 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 2.3%
+  Rank among test companies        : top 4.5% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.506
+  2. Operating expenses / total liabilities
+     Company value 6.838 | training median 1.728 | above 88% of training companies | contribution +1.502
+  3. Gross profit (in 3 years) / total assets
+     Company value 0.069 | training median 0.164 | above 29% of training companies | contribution +0.738
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-1342
+  Company    : Record 1342 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 2.2%
+  Rank among test companies        : top 4.6% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating expenses / total liabilities
+     Company value 6.142 | training median 1.728 | above 85% of training companies | contribution +1.592
+  2. Profit on sales / sales
+     Company value -0.194 | training median 0.046 | above 1% of training companies | contribution +1.203
+  3. Operating profit / financial expenses
+     Company value -5.722 | training median 1.276 | above 2% of training companies | contribution +1.001
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-574
+  Company    : Record 574 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 2.0%
+  Rank among test companies        : top 4.7% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating profit / financial expenses
+     Company value: not reported | contribution +8.805
+  2. Operating expenses / total liabilities
+     Company value 0.504 | training median 1.728 | above 34% of training companies | contribution +2.156
+  3. Sales / total assets
+     Company value 0.588 | training median 1.207 | above 2% of training companies | contribution +0.927
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-4276
+  Company    : Record 4276 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 2.0%
+  Rank among test companies        : top 4.8% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating expenses / total liabilities
+     Company value 3.461 | training median 1.728 | above 68% of training companies | contribution +1.490
+  2. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.379
+  3. (Gross profit + depreciation) / sales
+     Company value 0.006 | training median 0.081 | above 8% of training companies | contribution +0.775
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-2938
+  Company    : Record 2938 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 1.9%
+  Rank among test companies        : top 4.8% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.327
+  2. Receivables / short-term liabilities (engineered)
+     Company value 0.202 | training median 0.727 | above 6% of training companies | contribution +1.087
+  3. Operating expenses / total liabilities
+     Company value 2.078 | training median 1.728 | above 54% of training companies | contribution +1.021
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-3234
+  Company    : Record 3234 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 1.8%
+  Rank among test companies        : top 4.9% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Did not go bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Sales growth (sales this year / sales last year)
+     Company value: not reported | contribution +1.520
+  2. Operating expenses / total liabilities
+     Company value 2.638 | training median 1.728 | above 60% of training companies | contribution +1.383
+  3. (Gross profit + depreciation) / sales
+     Company value 0.013 | training median 0.081 | above 11% of training companies | contribution +0.682
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
+
+
+COMPANY BANKRUPTCY RISK REPORT
+==================================================================
+
+  Date       : 09 November 2026
+  Report ID  : RISK-20261109-6899
+  Company    : Record 6899 (test set)
+
+RISK SCORE
+------------------------------------------------------------------
+  Predicted bankruptcy probability : 1.6%
+  Rank among test companies        : top 5.0% by risk
+  Risk tier                        : HIGH
+  Decision at threshold 0.004   : FLAGGED FOR REVIEW
+  Model                            : LightGBM
+  Benchmark outcome                : Bankrupt
+
+TOP RISK DRIVERS
+------------------------------------------------------------------
+  1. Operating expenses / total liabilities
+     Company value 0.916 | training median 1.728 | above 40% of training companies | contribution +1.518
+  2. Receivables / short-term liabilities (engineered)
+     Company value 0.314 | training median 0.727 | above 13% of training companies | contribution +0.958
+  3. Inventory / short-term liabilities (engineered)
+     Company value 0.841 | training median 0.487 | above 74% of training companies | contribution +0.791
+
+SUGGESTED ANALYST ACTION
+------------------------------------------------------------------
+  - Review immediately and place in the first investigation batch
+  - Request the latest full financial statements and notes
+  - Check short-term debt maturities and available credit lines
+
+NOTE
+------------------------------------------------------------------
+  The drivers show which ratios the model relied on for this score. They
+  do not establish why the company failed or will fail. The model was
+  trained on a historical benchmark and has not been validated on
+  present-day Nigerian companies.
+
+==================================================================
+END OF REPORT
+==================================================================
