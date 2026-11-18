@@ -176,3 +176,45 @@ The table below provides the description of each financial attribute.
 
 **Note:** The dataset contains five forecasting files, but only the first-year forecasting file (`1year.arff`) is used in this project. All analysis and model evaluation results therefore apply exclusively to this file.
 
+## Exploratory Data Analysis
+
+Each chart below answers a specific business question.
+
+### 1. How rare is bankruptcy in this dataset?
+
+![Class Imbalance](01_training/Plots/eda_01_class_imbalance.png)
+
+Bankruptcy is very rare. Only 271 out of 7,027 companies went bankrupt (3.9%). That is about 1 bankrupt company for every 25 healthy companies. This is why accuracy alone is misleading - a model that predicts "no bankruptcy" for everyone would already be 96.1% accurate.
+
+### 2. How are the financial ratios distributed?
+
+![Ratio Distribution](01_training/Plots/eda_02_ratio_distribution.png)
+
+After median/IQR scaling, the middle 50% of most ratios sits tightly around zero, but almost all of them have long tails of extreme outliers reaching the ±5 clipping limit. The ratios are heavily skewed and outlier-prone, and the true extremes are even larger than shown because values were clipped. Only a few ratios have noticeably shorter tails.
+
+### 3. Which financial ratios move together?
+
+![Correlation](01_training/Plots/eda_03_correlation.png)
+
+Many ratios are highly correlated. The baseline therefore uses Elastic Net Logistic Regression - its L2 penalty lets correlated ratios share weight, while its L1 penalty drops redundant ones. Gradient boosting is less affected by correlation, so its performance should hold. Because SHAP spreads credit across related ratios, explanations should be read as groups of related ratios, not single ratios. Any correlation-based selection is done on the training set only, to avoid leaking test information.
+
+### 4. Are there duplicate or conflicting records?
+
+![Duplicate and Conflicting](01_training/Plots/eda_04_duplicate_and_conflicting.png)
+
+The data was checked for duplicates and conflicting rows. Cleaning these out before training prevents the model from memorising the same company twice and overstating its performance.
+
+### 5. How much data is missing, and where?
+
+![Missing vs Present](01_training/Plots/eda_05_missing_vs_present_bankruptcy.png)
+
+Missingness is informative for some ratios. Companies missing Attr27 go bankrupt 38.6% of the time, against 2.2% when it is present. Attr45 and Attr60 show a similar pattern (10.4% vs 3.7%). Missing values are not random here - the absence of a value may itself signal distress.
+
+### 6. Which ratios are most linked to bankruptcy?
+
+![Top 20 Correlated](01_training/Plots/eda_06_top_20_correlated_with_bankruptcy.png)
+
+On their own, ratios are only weakly linked to bankruptcy. Among the 20 strongest, Spearman correlations run from about -0.15 to +0.10, and almost all are negative - higher values are slightly linked to lower risk. No single ratio predicts well alone. The signal is more likely to come from combinations of ratios and non-linear patterns.
+
+Missing values are not spread evenly. Some ratios have far more missing values than others. This was handled during preprocessing so that missingness itself did not become a false signal for bankruptcy.
+
