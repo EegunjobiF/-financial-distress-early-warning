@@ -58,8 +58,4 @@ financial-distress-early-warning/
 │
 ├── .gitignore
 └── README.md
-</pre>
-│   └── athena_validation.ipynb
-│
-├── .gitignore
-└── README.md
+
