@@ -231,3 +231,59 @@ Five new financial features were engineered based on financial ratio relationshi
 | `financial_red_flag_share` | Proportion of three financial warning conditions present: current ratio below 1, negative equity, and negative retained earnings. |
 
 **Additional preprocessing:** Infinite values were converted to missing values, and denominators close to zero were treated as missing to prevent unstable ratio calculations.
+## Modelling
+
+### Models Trained
+
+- **ElasticNet Logistic Regression** — with `class_weight=balanced` for class imbalance, threshold `0.3635`
+- **LightGBM** — with `scale_pos_weight` for class imbalance, threshold `0.0040`
+
+Both thresholds were chosen to target 80% recall on the training folds.
+
+### Model Comparison
+
+| Model | Precision | Recall | F1 |
+| :---: | :---: | :---: | :---: |
+| ElasticNet | 0.0749 | 0.7778 | 0.1366 |
+| LightGBM | 0.4138 | 0.8889 | 0.5647 |
+
+LightGBM catches more bankruptcies and raises far fewer false alarms — 41 genuine bankruptcy alerts per 100 flagged firms vs 7 for ElasticNet. ElasticNet flags 561 companies out of 1,389, LightGBM flags only 116, while missing fewer bankruptcies (6 missed vs 12 missed).
+
+### Overfitting Check
+
+| Model | Train PR-AUC | CV PR-AUC | Test PR-AUC |
+| :---: | :---: | :---: | :---: |
+| ElasticNet | 0.1753 | 0.1370 | 0.1780 |
+| LightGBM | 1.0000 | 0.8001 | 0.8501 |
+
+No sign of overfitting. Test PR-AUC holds up against CV PR-AUC for both models.
+## Confusion Matrix
+
+![Confusion Matrix](01_training/Plots/Confusion_matrices_for_both.png)
+
+ElasticNet misses 12 bankruptcies and raises 519 false alarms. LightGBM misses only 6 bankruptcies and raises just 68 false alarms. LightGBM is better on both sides - it catches more failures while flagging far fewer healthy companies.
+## Risk Ranking
+
+![Risk Ranking](01_training/Plots/Risk_ranking.png)
+
+Ranking matters more than a single yes/no prediction. A credit team cannot review every company, so the model should put the real bankruptcies at the top of the list.
+
+LightGBM does this far better than ElasticNet. By reviewing only the top 10% highest-risk companies, LightGBM already finds about 85% of all bankruptcies, against about 45% for ElasticNet. By the top 20%, LightGBM has found over 90%.
+
+The right chart shows why. In the highest-risk decile alone - the top 10% - LightGBM places 47 of the 54 bankrupt companies in the test set. The other 9 deciles contain almost no bankruptcies. The risk score is not spread out, it is concentrated exactly where the team should look first.
+
+## SHAP Explainability
+
+Lenders, auditors and regulators require documented reasons for every bankruptcy alert. SHAP assigns a contribution value to each ratio for every prediction — making the model explainable to credit teams and regulators.
+
+### Global Feature Importance
+
+![Global Feature Importance](01_training/Plots/SHAP_summary_plot.png)
+
+Features are ranked by mean absolute SHAP value - how much each feature moves predicted risk on average. Attr34 is the most important by a clear margin, followed by Attr27, Attr21, Attr58 and Attr5. The engineered features `receivables_burden_stl` and `inventory_burden_stl` also rank in the top 10, showing they add real predictive value.
+
+### How Each Feature Pushes Risk Up or Down
+
+![SHAP Beeswarm](01_training/Plots/SHAP_beeswarm_plot.png)
+
+Each dot is one company. Position shows whether the feature pushed risk up (right) or down (left). Colour shows the feature value - red is high, blue is low. Attr34 has the widest spread and strongest effect in both directions, while Attr27 has a long right tail - it sharply raises risk for a small group of outlier companies. Most other top features show mixed, non-linear effects, with both high and low values able to push risk in either direction.
