@@ -218,3 +218,16 @@ On their own, ratios are only weakly linked to bankruptcy. Among the 20 stronges
 
 Missing values are not spread evenly. Some ratios have far more missing values than others. This was handled during preprocessing so that missingness itself did not become a false signal for bankruptcy.
 
+## Feature Engineering
+
+Five new financial features were engineered based on financial ratio relationships and EDA findings. Each feature captures a specific dimension of corporate financial distress.
+
+| Feature | What it captures |
+|---|---|
+| `inventory_burden_stl` | Difference between inventory-related assets and short-term liabilities, capturing inventory's contribution to short-term liquidity pressure. |
+| `receivables_burden_stl` | Difference between receivables and cash-related assets relative to short-term liabilities, capturing the company's reliance on receivables for meeting short-term obligations. |
+| `operating_profit_to_liabilities` | Operating profit relative to total liabilities, measuring the company's ability to generate operating earnings against its financial obligations. |
+| `negative_profitability_share` | Proportion of six profitability ratios that are negative, capturing the extent of profitability weakness across the company. |
+| `financial_red_flag_share` | Proportion of three financial warning conditions present: current ratio below 1, negative equity, and negative retained earnings. |
+
+**Additional preprocessing:** Infinite values were converted to missing values, and denominators close to zero were treated as missing to prevent unstable ratio calculations.
