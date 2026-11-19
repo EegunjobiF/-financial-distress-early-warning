@@ -345,7 +345,7 @@ NOTE
 END OF REPORT
 ================================================================
 ```
-## Pipeline / How It Works
+## Pipeline 
 
 The Financial Distress Early Warning System implements an end-to-end machine learning pipeline that transforms historical financial statements into explainable bankruptcy risk predictions, supporting proactive credit risk assessment and decision-making.
 
@@ -367,13 +367,22 @@ Uses SHAP to interpret individual predictions and identify the financial indicat
 **6. Reporting & Deployment**
 Automatically generates a COMPANY BANKRUPTCY RISK REPORT for each high-risk company, with deployment components maintained in `02_deployment/`. Predictions and risk outputs feed the Power BI Risk Intelligence Dashboard in `03_powerbi/`, enabling credit teams to prioritize investigations and support informed lending decisions.
 
+**7. Deployment & Backtest Scoring**
+The trained LightGBM model was deployed to SageMaker Serverless. I used the test set to test the pipeline - I only loaded the held-out test set of 1,389 companies, not the entire dataset. The test set was never used for training or threshold tuning. Only the features were sent to SageMaker through the production ETL pipeline, and the production scores were validated in the Backtest Dashboard.
+
+**Backtest Result - Production Validated**
+Production (SageMaker Serverless, n = 1,389): Bankruptcy Recall 0.89, Precision 0.41. Offline (notebook, same test set): Bankruptcy Recall 0.89, Precision 0.41. Production matches offline exactly. No train-serve skew, no leakage - y_test was never sent to SageMaker, it was only used locally to check the predictions. The endpoint caught 48 of 54 bankruptcies, missed 6, with 68 false alarms. This is the intended trade-off for an early-warning system: a missed failure is costlier than a false alarm.
+
 ```mermaid
 flowchart TD
-    A["UCI Polish Companies Bankruptcy Dataset<br/>1year.arff"] --> B["1. Data Ingestion & Loading"]
-    B --> C["2. Data Cleaning & Preprocessing"]
-    C --> D["3. Feature Engineering"]
-    D --> E["4. Model Development & Evaluation<br/>ElasticNet vs LightGBM"]
-    E --> F["5. Model Explainability<br/>SHAP"]
-    F --> G["6. Reporting & Deployment"]
-    G --> H["Risk Reports"]
-    G --> I["Power BI Dashboard"]
+    A[UCI Dataset 1year.arff] --> B[1. Ingestion and Loading]
+    B --> C[2. Cleaning and Preprocessing]
+    C --> D[3. Feature Engineering]
+    D --> E[4. Model Development - LightGBM]
+    E --> F[5. SHAP Explainability]
+    F --> G[6. Reporting and Deployment]
+    G --> H[7. Deployment and Backtest Scoring]
+    H --> I[SageMaker Serverless - Test Set Only n=1389]
+    H --> J[Backtest Dashboard]
+    I --> K[Power BI Dashboard]
+    J --> K
