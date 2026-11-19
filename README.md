@@ -411,3 +411,16 @@ Horizontal bar chart ranking the riskiest companies. The top companies shown - 6
 Table of flagged companies with Company ID, Status = High Risk, and Date. Examples shown: 1123, 1342, 1495, 1597, 1810.
 
 **How to read it:** Credit teams start with the 116 High Risk companies, investigate the Top Riskiest first, then work through the rest of the flagged list. The 1,273 Low Risk companies require no immediate action.
+## Tech Stack
+
+| Tool | Purpose |
+| --- | --- |
+| Python | Core language |
+| Pandas, NumPy | Data manipulation |
+| LightGBM | Gradient boosting model - final model |
+| Scikit-learn | ElasticNet Logistic Regression, metrics, cross-validation |
+| SHAP | Model explainability |
+| AWS SageMaker Serverless | Production deployment and scoring |
+| AWS S3 | Storage for datasets, model artefacts, and predictions |
+| AWS Athena | SQL querying of scored data in S3 |
+| Power BI | Risk Intelligence Dashboard |
