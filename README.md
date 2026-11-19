@@ -382,8 +382,5 @@ flowchart TD
     D --> E[4. Model Development - LightGBM]
     E --> F[5. SHAP Explainability]
     F --> G[6. Reporting and Deployment]
-    G --> H[7. Deployment and Backtest Scoring]
-    H --> I[SageMaker Serverless]
-    H --> J[Backtest Dashboard]
-    I --> K[Power BI Dashboard]
-    J --> K
+    G --> H[Risk Reports]
+    G --> I[Power BI Dashboard]
