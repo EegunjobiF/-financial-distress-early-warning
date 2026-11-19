@@ -424,3 +424,23 @@ Table of flagged companies with Company ID, Status = High Risk, and Date. Exampl
 | AWS S3 | Storage for datasets, model artefacts, and predictions |
 | AWS Athena | SQL querying of scored data in S3 |
 | Power BI | Risk Intelligence Dashboard |
+
+## Business Impact
+
+If deployed at a bank / lender monitoring a portfolio of companies:
+
+- Automatically flags only 116 of 1,389 companies for review, instead of manually reviewing the whole portfolio
+- Catches 48 of 54 bankruptcies in the held-out test set, missing only 6
+- Production matches offline exactly - Recall 0.89, Precision 0.41 - so credit teams can trust the live scores
+- Each high-risk company gets a COMPANY BANKRUPTCY RISK REPORT with SHAP drivers, so analysts investigate the reason, not just a score
+- Early warning gives credit teams time to reduce exposure, renegotiate terms, or increase monitoring before failure
+- Full audit trail in Power BI - every score, driver, and backtest result is traceable for credit review and compliance
+
+## Future Improvements
+
+- Multi-year modelling using 2-year, 3-year, and 5-year datasets to track deterioration over time, not just 1-year ahead
+- Real-time scoring pipeline - new financial statements in S3 automatically scored via SageMaker Serverless, queried in Athena
+- Macroeconomic features - interest rates, inflation, and sector stress indicators to capture market-wide downturns
+- Model drift monitoring using Evidently AI to detect when financial patterns shift and retraining is needed
+- Threshold tuning per portfolio - different recall / precision trade-offs for retail vs corporate lending
+- REST API deployment for production integration with loan origination and credit monitoring systems
