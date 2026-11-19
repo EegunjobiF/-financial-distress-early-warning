@@ -345,3 +345,35 @@ NOTE
 END OF REPORT
 ================================================================
 ```
+## Pipeline / How It Works
+
+The Financial Distress Early Warning System implements an end-to-end machine learning pipeline that transforms historical financial statements into explainable bankruptcy risk predictions, supporting proactive credit risk assessment and decision-making.
+
+**1. Data Ingestion & Loading**
+Loads the `1year.arff` dataset from the UCI Polish Companies Bankruptcy repository, covering 7,027 companies and 64 financial ratios (2000–2013). Infinite values and unstable ratios caused by near-zero denominators are converted to missing values to ensure reliable downstream analysis.
+
+**2. Data Cleaning & Preprocessing**
+Handles missing values, duplicate records, conflicting observations, and applies median/IQR scaling to prepare robust financial features. Missingness is preserved as a potential risk signal, with Attr27 missingness associated with a 38.6% bankruptcy rate versus 2.2% when present.
+
+**3. Feature Engineering**
+Creates five domain-driven financial indicators capturing inventory and receivables burden, operating profit relative to liabilities, negative profitability, and financial red flags. These features strengthen the identification of financial deterioration patterns relevant to credit risk teams.
+
+**4. Model Development & Evaluation**
+Evaluates ElasticNet Logistic Regression against LightGBM using thresholds calibrated on training folds to target 80% recall. LightGBM delivers the stronger result: 85.0% PR AUC, 41.4% precision, 88.9% recall, and 56.5% F1, identifying 48 of 54 bankrupt companies while flagging only 116 companies.
+
+**5. Model Explainability (SHAP)**
+Uses SHAP to interpret individual predictions and identify the financial indicators driving bankruptcy risk. Attr34, Attr27, Attr21, Attr58, and Attr5 rank as the leading predictors, with engineered features also appearing in the top 10.
+
+**6. Reporting & Deployment**
+Automatically generates a COMPANY BANKRUPTCY RISK REPORT for each high-risk company, with deployment components maintained in `02_deployment/`. Predictions and risk outputs feed the Power BI Risk Intelligence Dashboard in `03_powerbi/`, enabling credit teams to prioritize investigations and support informed lending decisions.
+
+```mermaid
+flowchart TD
+    A["UCI Polish Companies Bankruptcy Dataset<br/>1year.arff"] --> B["1. Data Ingestion & Loading"]
+    B --> C["2. Data Cleaning & Preprocessing"]
+    C --> D["3. Feature Engineering"]
+    D --> E["4. Model Development & Evaluation<br/>ElasticNet vs LightGBM"]
+    E --> F["5. Model Explainability<br/>SHAP"]
+    F --> G["6. Reporting & Deployment"]
+    G --> H["Risk Reports"]
+    G --> I["Power BI Dashboard"]
