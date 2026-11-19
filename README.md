@@ -349,25 +349,25 @@ END OF REPORT
 
 The Financial Distress Early Warning System implements an end-to-end machine learning pipeline that transforms historical financial statements into explainable bankruptcy risk predictions, supporting proactive credit risk assessment and decision-making.
 
-**1. Data Ingestion & Loading**
+**Data Ingestion & Loading**
 Loads the `1year.arff` dataset from the UCI Polish Companies Bankruptcy repository, covering 7,027 companies and 64 financial ratios (2000–2013). Infinite values and unstable ratios caused by near-zero denominators are converted to missing values to ensure reliable downstream analysis.
 
-**2. Data Cleaning & Preprocessing**
+**Data Cleaning & Preprocessing**
 Handles missing values, duplicate records, conflicting observations, and applies median/IQR scaling to prepare robust financial features. Missingness is preserved as a potential risk signal, with Attr27 missingness associated with a 38.6% bankruptcy rate versus 2.2% when present.
 
-**3. Feature Engineering**
+**Feature Engineering**
 Creates five domain-driven financial indicators capturing inventory and receivables burden, operating profit relative to liabilities, negative profitability, and financial red flags. These features strengthen the identification of financial deterioration patterns relevant to credit risk teams.
 
-**4. Model Development & Evaluation**
+**Model Development & Evaluation**
 Evaluates ElasticNet Logistic Regression against LightGBM using thresholds calibrated on training folds to target 80% recall. LightGBM delivers the stronger result: 85.0% PR AUC, 41.4% precision, 88.9% recall, and 56.5% F1, identifying 48 of 54 bankrupt companies while flagging only 116 companies.
 
-**5. Model Explainability (SHAP)**
+**Model Explainability (SHAP)**
 Uses SHAP to interpret individual predictions and identify the financial indicators driving bankruptcy risk. Attr34, Attr27, Attr21, Attr58, and Attr5 rank as the leading predictors, with engineered features also appearing in the top 10.
 
-**6. Reporting & Deployment**
+**Reporting & Deployment**
 Automatically generates a COMPANY BANKRUPTCY RISK REPORT for each high-risk company, with deployment components maintained in `02_deployment/`. Predictions and risk outputs feed the Power BI Risk Intelligence Dashboard in `03_powerbi/`, enabling credit teams to prioritize investigations and support informed lending decisions.
 
-**7. Deployment & Backtest Scoring**
+**Deployment & Backtest Scoring**
 The trained LightGBM model was deployed to SageMaker Serverless. I used the test set to test the pipeline - I only loaded the held-out test set of 1,389 companies, not the entire dataset. The test set was never used for training or threshold tuning. Only the features were sent to SageMaker through the production ETL pipeline, and the production scores were validated in the Backtest Dashboard.
 
 **Backtest Result - Production Validated**
@@ -384,3 +384,30 @@ flowchart TD
     F --> G[6. Reporting and Deployment]
     G --> H[Risk Reports]
     G --> I[Power BI Dashboard]
+```
+## Power BI Risk Intelligence Dashboard
+
+The Power BI dashboard turns the model outputs into a decision tool for credit teams to prioritize investigations.
+
+![Power BI Risk Intelligence Dashboard](03_powerbi/dashboard.png)
+
+**Title:** FINANCIAL DISTRESS EARLY WARNING SYSTEM - Corporate Credit Risk Intelligence
+
+**Top KPI cards - held-out test set, n = 1,389:**
+- Total Companies: 1,389
+- High Risk: 116
+- Low Risk: 1,273
+- High Risk %: 3.26% as shown on the dashboard
+
+**Risk Intelligence:**
+
+**Risk Distribution by High vs Low Risk**
+Donut chart showing the split of the 1,389 scored companies into Low Risk (green) vs High Risk (red). Centre total: 1.389K.
+
+**Top 4 Riskiest by company_id**
+Horizontal bar chart ranking the riskiest companies. The top companies shown - 6700, 6711, 6718 - are all at 100% predicted risk.
+
+**High-Risk Company Table**
+Table of flagged companies with Company ID, Status = High Risk, and Date. Examples shown: 1123, 1342, 1495, 1597, 1810.
+
+**How to read it:** Credit teams start with the 116 High Risk companies, investigate the Top Riskiest first, then work through the rest of the flagged list. The 1,273 Low Risk companies require no immediate action.
