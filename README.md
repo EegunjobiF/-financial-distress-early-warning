@@ -373,6 +373,7 @@ The trained LightGBM model was deployed to SageMaker Serverless. I used the test
 **Backtest Result - Production Validated**
 Production (SageMaker Serverless, n = 1,389): Bankruptcy Recall 0.89, Precision 0.41. Offline (notebook, same test set): Bankruptcy Recall 0.89, Precision 0.41. Production matches offline exactly. No train-serve skew, no leakage - y_test was never sent to SageMaker, it was only used locally to check the predictions. The endpoint caught 48 of 54 bankruptcies, missed 6, with 68 false alarms. This is the intended trade-off for an early-warning system: a missed failure is costlier than a false alarm.
 
+
 ```mermaid
 flowchart TD
     A[UCI Dataset 1year.arff] --> B[1. Ingestion and Loading]
@@ -382,7 +383,7 @@ flowchart TD
     E --> F[5. SHAP Explainability]
     F --> G[6. Reporting and Deployment]
     G --> H[7. Deployment and Backtest Scoring]
-    H --> I[SageMaker Serverless - Test Set Only n=1389]
+    H --> I[SageMaker Serverless]
     H --> J[Backtest Dashboard]
     I --> K[Power BI Dashboard]
     J --> K
